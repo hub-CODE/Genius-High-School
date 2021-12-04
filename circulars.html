@@ -1,137 +1,98 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-  <title>GENIUS HIGH SCHOOL(CIRCULARS)</title>
-  <link rel="shortcut icon" type="image/png" href="imageedit_2_7258851370.gif" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="circulars.css">
+    <title>Genius High School</title>
 </head>
-
-<body style="font-family: 'Oswald', sans-serif;">
-  <nav>
-    <div>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-      <i class="fas fa-bars"></i>
-      </label>
-      <label class="logo">GENIUS HIGH SCHOOL</label>
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="circulars.html">CIRCULARS</a></li>
-        <li><a href="worksheets.html">WORKSHEETS</a></li>
-        <li><a href="message.html">MESSAGE</a></li>
-        <li><a href="gallery.html">GALLERY</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
+<header class="header">
+  
+    <nav class="navbar">
+      <ul class="nav-menu">
+          <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+              <a href="academics.html" class="nav-link">Academics</a>
+          </li>
+          <li class="nav-item">
+              <a href="worksheets.html" class="nav-link">Worksheets</a>
+          </li>
+          <li class="nav-item">
+            <a href="circulars.html" class="nav-link">Circulars</a>
+        </li>
+        <li class="nav-item">
+          <a href="gallery.html" class="nav-link">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a href="message.html" class="nav-link">Message</a>
+    </li>
+    <li class="nav-item">
+      <a href="contact.html" class="nav-link">Contact</a>
+  </li>
       </ul>
-    </div>
+      <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </div>
   </nav>
-  <style>
-      body {
-    font-family: 'Oswald', sans-serif;
-    background-color: black;
-}
-
-h1{
- margin-top: 20%;
-}
-
-i{
-    height: 45px;
-    width: 23px;
-  }
-
-  *{
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-}
-
-  nav{
-  background: #0082e6;
-  height: 80px;
-  width: 100%;
-}
-label.logo{
-  color: white;
-  font-size: 35px;
-  line-height: 80px;
-  padding: 0 100px;
-  font-weight: bold;
-}
-
-nav ul{
-  float: right;
-  margin-right: 20px;
-}
-nav ul li{
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
-}
-nav ul li a{
-  color: white;
-  font-size: 17px;
-  padding: 7px 13px;
-  border-radius: 3px;
-  text-transform: uppercase;
-}
-a.active,a:hover{
-  background: #1b9bff;
-  transition: .5s;
-}
-
-@media (max-width: 952px){
-  label.logo{
-    font-size: 30px;
-    padding-left: 50px;
-  }
-
-  nav ul li a{
-    font-size: 16px;
-  }
-
-  @media (max-width: 858px){
-  .checkbtn{
-    display: block;
-  }   
-
-  ul{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #2c3e50;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all .5s;
-  }
-  nav ul li{
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-  }
-  nav ul li a{
-    font-size: 20px;
-  }
-  a:hover,a.active{
-    background: none;
-    color: #0082e6;
-  }
-  #check:checked ~ ul{
-    left: 0;
-  }
-  </style>
-
- <center>
-     <br>
-     <br>
-    <h1 class="text-capitalized"><b>CIRCULARS</b></h1>
-    <embed src="GENIUS HIGH SCHOOL.pdf" type="application/pdf" width="900" height="900">
- </center>
+</header>
+<body>
+  <section>
+    <div class="big-image">
+      <div class="overlay">
+        <span>
+          <br>
+          <br>
+          <br>
+          <h1>Circulars</h1>
+          <br>
+        </span>
+      </div>
+    </div>
+  </section>
+      <div id="news">
+        <iframe src="GENIUS HIGH SCHOOL.pdf" width="70%" height="1000px"></iframe>
+      </div>
+      <footer>
+        <div class="footer">
+        <br>
+        <img src="imageedit_2_7258851370.gif"> 
+        <br><br><br>
+        <h1 class="logo">Genius High School</h1>
+        <br>
+        <div class="links">
+          <h1><i class="fas fa-link"></i>  Links</h1>
+          <ul class="navtwo">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="worksheets.html">Worksheets</a></li>
+            <li><a href="circulars.html">Circulars</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="message.html">Message</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <br>
+            <br>
+          </ul>
+        </div>
+        <div class="tel">
+          <br><br>
+          <h1><i class="fas fa-phone"></i>  Get in touch</h1>
+          <br>
+          <a class="phone_number" href="tel:+91-934-638-8595">+91-934-638-8595</a>
+        <br>
+          <a class="phone_number" href="tel:+91-970-026-0200">+91-934-638-8595</a>
+        <br>
+        <a class="phone_number" href="email:geints2013@gmail.com">geints2013@gmail.com</a>
+        <br>
+        <br><br><br><br>
+        </div>
+      </footer>
 </body>
+<script src="circulars.js"></script>
 </html>

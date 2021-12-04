@@ -1,50 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
 body {
     margin: 0;
     background-repeat:no-repeat;
     font-family: 'Work Sans', sans-serif;
     overflow-x: hidden;
+      font-weight: 800;
 }
 
-.message {
-    font-size: 18px;
-    width: 50%;
-}
-
-h4 {
-    font-size: 18px;
-}
-
-.v_m{
-    width: 100%;
-    height: 300px;
-    font-size: 18px;
-    margin-top: 10%;
-    background-image: url(v_m.jpg);
-    background-size: cover;
-    color: white;
-}
-
-.vision {
-    background-color: rgba(0,0,0,.5);
-    height: 300px;
-    width: 100%;
-}
-
-.vision p{
-    margin-top: 10px;
-  font-size: 23px;
-  font-family: 'Dancing Script', cursive;
-}
-
-.pa {
-    width: 40%;
-}
-
-.image {
-  width: 10%;
-  height: 10%;
+.phone_number {
+  font-size: 25px;
 }
 
 .big-image {
@@ -53,7 +16,7 @@ h4 {
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
-  background-image:url(message.jpg);
+  background-image:url(contact.jpg);
 }
 
 .overlay {
@@ -120,6 +83,26 @@ h4 {
 footer {
   background-color: rgb(203, 238, 255);
   color: rgb(139, 139, 0);
+}
+
+footer img{
+  height: 40px;
+  width: 40px;
+}
+
+ul li {
+  color: rgb(109, 109, 0);
+  font-size: large;
+}
+
+li a {
+  color: #000a66;
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgb(203, 238, 255);
+  color: rgb(139, 139, 0);
   align-items: center;
 }
 
@@ -136,25 +119,10 @@ footer img{
   font-weight: bold;
 }
 
-ul li {
-  color: rgb(109, 109, 0);
-  font-size: large;
-}
-
-li a {
-  color: #000a66;
-  text-decoration: none;
-}
-
-.footer {
-  margin-left: 20px;
-  height: 370px;
-}
-
 .links{
   margin-left: 30%;
   position: absolute;
-  top: 2250px;
+  top: 1600px;
   font-weight: bold;
 }
 
@@ -168,12 +136,17 @@ li a {
   font-size: medium;
   position: absolute;
   right: 300px;
-  top: 2250px;
+  top: 1570px;
 }
 
 .tel a {
   color: #0b0069;
   text-decoration: none;
+}
+
+.footer {
+  margin-left: 20px;
+  height: 370px;
 }
 
 * {
@@ -278,64 +251,45 @@ nav {
       cursor: pointer;
   }
 
-  .v_m{
-    width: 100%;
-    height: 300px;
-    font-size: 18px;
-    margin-top: 10%;
-    background-image: url(v_m.jpg);
-    background-size: cover;
-    color: white;
-}
+  footer img{
+    height: 100px;
+    width: 100px;
+    margin-top: 7%;
+    margin-left: 220px;
+  }
+  
+  .footer {
+   height: 500px;
+  }
+  
+  .footer .logo {
+    margin-left: 140px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .links{
+    margin-left: 20%;
+    position: absolute;
+    top: 1700px;
+    font-weight: bold;
+  }
+  
+  .tel {
+    font-weight: bold;
+    margin-left: 50%;
+    font-size: 16px;
+    position: absolute;
+    right: 10px;
+    top: 1665px;
 
-.vision {
-    background-color: rgba(0,0,0,.5);
-    height: 300px;
-    width: 100%;
-}
+  }
 
-.vision p{
-    margin-top: 10px;
-  font-size: 15px;
-  font-family: 'Dancing Script', cursive;
-}
+  .tel a {
+    font-size: 20px;
+  }
 
-.pa {
-    width: 40%;
-}
 
-footer img{
-  height: 100px;
-  width: 100px;
-  margin-top: 7%;
-  margin-left: 220px;
-}
-
-.footer {
- height: 500px;
-}
-
-.footer .logo {
-  margin-left: 140px;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.links{
-  margin-left: 20%;
-  position: absolute;
-  top: 2750px;
-  font-weight: bold;
-}
-
-.tel {
-  font-weight: bold;
-  margin-left: 50%;
-  font-size: medium;
-  position: absolute;
-  right: 60px;
-  top: 2750px;
-}
 
 }
 
