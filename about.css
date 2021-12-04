@@ -1,0 +1,255 @@
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+body {
+    background: rgb(0,5,139);
+    background: linear-gradient(270deg, rgba(0,5,139,1) 23%, rgba(255,255,255,1) 23%);
+    font-family: 'Work Sans', sans-serif;
+}
+
+.aboutus {
+    font-size: 18px;
+    margin-top: 70px;
+}
+
+.heading {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.para {
+    width: 60%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+
+.navtwo {
+    color: yellow;
+    list-style-type: none;
+  }
+  
+  footer {
+    background-color: rgb(203, 238, 255);
+    color: rgb(139, 139, 0);
+  }
+  
+  footer img{
+    height: 40px;
+    width: 40px;
+  }
+  
+  ul li {
+    color: rgb(109, 109, 0);
+    font-size: large;
+  }
+  
+  li a {
+    color: #000a66;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: rgb(203, 238, 255);
+    color: rgb(139, 139, 0);
+    align-items: center;
+  }
+  
+  footer img{
+    height: 100px;
+    width: 100px;
+    margin-top: 7%;
+    margin-left: 150px;
+  }
+  
+  .footer .logo {
+    margin-left: 70px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .links{
+    margin-left: 30%;
+    position: absolute;
+    top: 700px;
+    font-weight: bold;
+  }
+  
+  .tel h1 {
+    font-size: 20px;
+  }
+  
+  .tel {
+    font-weight: bold;
+    margin-left: 50%;
+    font-size: medium;
+    position: absolute;
+    right: 300px;
+    top: 680px;
+  }
+  
+  .tel a {
+    color: #0b0069;
+    text-decoration: none;
+  }
+  
+  .footer {
+    margin-left: 20px;
+    height: 370px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .header{
+    border-bottom: 1px solid #E2E8F0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-color: white;
+  }
+  
+  .hamburger {
+    display: none;
+  }
+  
+  nav {
+    overflow: auto;
+  }
+  
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:999;
+  }
+  
+  .nav-item {
+    margin-left: 5rem;
+  }
+  
+  .nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #475569;
+  }
+  
+  .nav-link:hover{
+    color: #482ff7;
+  }
+  
+  .nav-logo {
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: #482ff7;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+  
+    .nav-menu.active {
+        left: 0;
+    }
+  
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+  
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    footer img{
+      height: 100px;
+      width: 100px;
+      margin-top: 7%;
+      margin-left: 160px;
+    }
+    
+    .footer {
+     height: 600px;
+    }
+    
+    .footer .logo {
+      margin-left: 70px;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    
+    .links{
+      margin-left: 10%;
+      position: absolute;
+      top: 1300px;
+      font-weight: bold;
+    }
+    
+    .tel {
+      font-weight: bold;
+      margin-left: 50%;
+      font-size: 16px;
+      position: absolute;
+      right: 10px;
+      top: 1270px;
+  
+    }
+  
+    .tel a {
+      font-size: 20px;
+    }
+  
+  }
+  
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
