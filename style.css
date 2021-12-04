@@ -224,7 +224,7 @@ nav {
   color: #482ff7;
 }
 
-@media only screen and (max-width: 480px){
+@media screen and (max-width: 480px){
   .nav-menu {
       position: fixed;
       left: -100%;
