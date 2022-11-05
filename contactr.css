@@ -255,7 +255,7 @@ nav {
     height: 100px;
     width: 100px;
     margin-top: 7%;
-    margin-left: 220px;
+    margin-left: 160px;
   }
   
   .footer {
@@ -263,13 +263,13 @@ nav {
   }
   
   .footer .logo {
-    margin-left: 140px;
+    margin-left: 70px;
     font-size: 30px;
     font-weight: bold;
   }
   
   .links{
-    margin-left: 20%;
+    margin-left: 10%;
     position: absolute;
     top: 1700px;
     font-weight: bold;

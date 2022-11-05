@@ -308,7 +308,7 @@ footer img{
   height: 100px;
   width: 100px;
   margin-top: 7%;
-  margin-left: 220px;
+  margin-left: 160px;
 }
 
 .footer {
@@ -316,13 +316,13 @@ footer img{
 }
 
 .footer .logo {
-  margin-left: 140px;
+  margin-left: 70px;
   font-size: 30px;
   font-weight: bold;
 }
 
 .links{
-  margin-left: 20%;
+  margin-left: 10%;
   position: absolute;
   top: 2750px;
   font-weight: bold;
@@ -330,10 +330,10 @@ footer img{
 
 .tel {
   font-weight: bold;
-  margin-left: 50%;
-  font-size: medium;
+  margin-left: 40%;
+  font-size: 16px;
   position: absolute;
-  right: 60px;
+  right: 30px;
   top: 2750px;
 }
 
